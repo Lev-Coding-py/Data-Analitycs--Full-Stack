@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Resultados de Encuesta</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 30px; background-color: #f4f4f4; }
+    h1 { color: #333; }
+    .grafico { margin-bottom: 40px; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 5px rgba(0,0,0,0.1); }
+  </style>
+</head>
+<body>
+  <h1>Resultados de la Encuesta</h1>
+  <div class="grafico">
+    {{ graficos | safe }}
+  </div>
+  <a href="/">← Volver a la encuesta</a>
+</body>
+
+</html>
